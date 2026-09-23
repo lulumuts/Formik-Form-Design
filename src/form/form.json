@@ -1,0 +1,3623 @@
+{
+  "sections": [
+    {
+      "title": "About you",
+      "summary": "Who you are and how you describe yourself.",
+      "steps": [
+        {
+          "title": "Legal identity",
+          "questions": [
+            {
+              "type": "text",
+              "label": "What should we record for legal identity?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for legal identity?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about legal identity?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to legal identity?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to legal identity?",
+              "placeholder": "https://example.com"
+            }
+          ]
+        },
+        {
+          "title": "Preferred name",
+          "questions": [
+            {
+              "type": "password",
+              "label": "What password should we store for preferred name?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about preferred name?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to preferred name?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to preferred name?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to preferred name?",
+              "placeholder": "name@example.com"
+            }
+          ]
+        },
+        {
+          "title": "Birth details",
+          "questions": [
+            {
+              "type": "search",
+              "label": "What should we search for about birth details?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to birth details?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to birth details?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to birth details?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for birth details?",
+              "placeholder": "0"
+            }
+          ]
+        },
+        {
+          "title": "Citizenship",
+          "questions": [
+            {
+              "type": "tel",
+              "label": "What phone number applies to citizenship?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to citizenship?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to citizenship?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for citizenship?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does citizenship fall on a scale of 0 to 100?"
+            }
+          ]
+        },
+        {
+          "title": "Languages",
+          "questions": [
+            {
+              "type": "url",
+              "label": "What web address applies to languages?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to languages?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for languages?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does languages fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents languages?"
+            }
+          ]
+        },
+        {
+          "title": "Cultural background",
+          "questions": [
+            {
+              "type": "email",
+              "label": "Which email applies to cultural background?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for cultural background?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does cultural background fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents cultural background?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to cultural background?"
+            }
+          ]
+        },
+        {
+          "title": "Emergency identity",
+          "questions": [
+            {
+              "type": "number",
+              "label": "What number should we keep for emergency identity?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does emergency identity fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents emergency identity?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to emergency identity?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to emergency identity?"
+            }
+          ]
+        },
+        {
+          "title": "Likeness",
+          "questions": [
+            {
+              "type": "range",
+              "label": "Where does likeness fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents likeness?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to likeness?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to likeness?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to likeness?"
+            }
+          ]
+        },
+        {
+          "title": "Accessibility needs",
+          "questions": [
+            {
+              "type": "color",
+              "label": "Which color represents accessibility needs?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to accessibility needs?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to accessibility needs?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to accessibility needs?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to accessibility needs?"
+            }
+          ]
+        },
+        {
+          "title": "Identity notes",
+          "questions": [
+            {
+              "type": "date",
+              "label": "What date is relevant to identity notes?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to identity notes?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to identity notes?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to identity notes?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to identity notes?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "summary": "How we can reach you.",
+      "steps": [
+        {
+          "title": "Primary email",
+          "questions": [
+            {
+              "type": "search",
+              "label": "What should we search for about primary email?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to primary email?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to primary email?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to primary email?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for primary email?",
+              "placeholder": "0"
+            }
+          ]
+        },
+        {
+          "title": "Secondary email",
+          "questions": [
+            {
+              "type": "tel",
+              "label": "What phone number applies to secondary email?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to secondary email?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to secondary email?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for secondary email?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does secondary email fall on a scale of 0 to 100?"
+            }
+          ]
+        },
+        {
+          "title": "Mobile phone",
+          "questions": [
+            {
+              "type": "url",
+              "label": "What web address applies to mobile phone?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to mobile phone?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for mobile phone?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does mobile phone fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents mobile phone?"
+            }
+          ]
+        },
+        {
+          "title": "Home phone",
+          "questions": [
+            {
+              "type": "email",
+              "label": "Which email applies to home phone?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for home phone?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does home phone fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents home phone?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to home phone?"
+            }
+          ]
+        },
+        {
+          "title": "Mailing address",
+          "questions": [
+            {
+              "type": "number",
+              "label": "What number should we keep for mailing address?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does mailing address fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents mailing address?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to mailing address?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to mailing address?"
+            }
+          ]
+        },
+        {
+          "title": "Physical address",
+          "questions": [
+            {
+              "type": "range",
+              "label": "Where does physical address fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents physical address?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to physical address?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to physical address?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to physical address?"
+            }
+          ]
+        },
+        {
+          "title": "Preferred method",
+          "questions": [
+            {
+              "type": "color",
+              "label": "Which color represents preferred method?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to preferred method?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to preferred method?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to preferred method?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to preferred method?"
+            }
+          ]
+        },
+        {
+          "title": "Contact hours",
+          "questions": [
+            {
+              "type": "date",
+              "label": "What date is relevant to contact hours?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to contact hours?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to contact hours?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to contact hours?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to contact hours?"
+            }
+          ]
+        },
+        {
+          "title": "Emergency contact",
+          "questions": [
+            {
+              "type": "month",
+              "label": "Which month applies to emergency contact?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to emergency contact?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to emergency contact?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to emergency contact?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for emergency contact?"
+            }
+          ]
+        },
+        {
+          "title": "Notifications",
+          "questions": [
+            {
+              "type": "week",
+              "label": "Which week applies to notifications?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to notifications?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to notifications?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for notifications?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe notifications in your own words.",
+              "placeholder": "Write a short answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Household",
+      "summary": "The people and place you live with.",
+      "steps": [
+        {
+          "title": "Household size",
+          "questions": [
+            {
+              "type": "url",
+              "label": "What web address applies to household size?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to household size?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for household size?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does household size fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents household size?"
+            }
+          ]
+        },
+        {
+          "title": "Living situation",
+          "questions": [
+            {
+              "type": "email",
+              "label": "Which email applies to living situation?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for living situation?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does living situation fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents living situation?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to living situation?"
+            }
+          ]
+        },
+        {
+          "title": "Dependents",
+          "questions": [
+            {
+              "type": "number",
+              "label": "What number should we keep for dependents?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does dependents fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents dependents?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to dependents?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to dependents?"
+            }
+          ]
+        },
+        {
+          "title": "Partner",
+          "questions": [
+            {
+              "type": "range",
+              "label": "Where does partner fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents partner?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to partner?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to partner?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to partner?"
+            }
+          ]
+        },
+        {
+          "title": "Housing type",
+          "questions": [
+            {
+              "type": "color",
+              "label": "Which color represents housing type?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to housing type?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to housing type?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to housing type?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to housing type?"
+            }
+          ]
+        },
+        {
+          "title": "Time at address",
+          "questions": [
+            {
+              "type": "date",
+              "label": "What date is relevant to time at address?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to time at address?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to time at address?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to time at address?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to time at address?"
+            }
+          ]
+        },
+        {
+          "title": "Shared expenses",
+          "questions": [
+            {
+              "type": "month",
+              "label": "Which month applies to shared expenses?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to shared expenses?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to shared expenses?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to shared expenses?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for shared expenses?"
+            }
+          ]
+        },
+        {
+          "title": "Pets",
+          "questions": [
+            {
+              "type": "week",
+              "label": "Which week applies to pets?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to pets?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to pets?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for pets?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe pets in your own words.",
+              "placeholder": "Write a short answer"
+            }
+          ]
+        },
+        {
+          "title": "Home access",
+          "questions": [
+            {
+              "type": "time",
+              "label": "What time applies to home access?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to home access?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for home access?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe home access in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which answer fits home access?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Household notes",
+          "questions": [
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to household notes?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for household notes?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe household notes in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "How regularly does household notes apply?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How often does household notes come up?",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Work",
+      "summary": "Employment, income, and day-to-day work.",
+      "steps": [
+        {
+          "title": "Employment status",
+          "questions": [
+            {
+              "type": "number",
+              "label": "What number should we keep for employment status?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does employment status fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents employment status?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to employment status?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to employment status?"
+            }
+          ]
+        },
+        {
+          "title": "Current role",
+          "questions": [
+            {
+              "type": "range",
+              "label": "Where does current role fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents current role?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to current role?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to current role?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to current role?"
+            }
+          ]
+        },
+        {
+          "title": "Employer",
+          "questions": [
+            {
+              "type": "color",
+              "label": "Which color represents employer?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to employer?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to employer?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to employer?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to employer?"
+            }
+          ]
+        },
+        {
+          "title": "Work history",
+          "questions": [
+            {
+              "type": "date",
+              "label": "What date is relevant to work history?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to work history?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to work history?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to work history?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to work history?"
+            }
+          ]
+        },
+        {
+          "title": "Income",
+          "questions": [
+            {
+              "type": "month",
+              "label": "Which month applies to income?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to income?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to income?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to income?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for income?"
+            }
+          ]
+        },
+        {
+          "title": "Schedule",
+          "questions": [
+            {
+              "type": "week",
+              "label": "Which week applies to schedule?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to schedule?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to schedule?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for schedule?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe schedule in your own words.",
+              "placeholder": "Write a short answer"
+            }
+          ]
+        },
+        {
+          "title": "Remote work",
+          "questions": [
+            {
+              "type": "time",
+              "label": "What time applies to remote work?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to remote work?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for remote work?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe remote work in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which channel should we use for remote work?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Benefits",
+          "questions": [
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to benefits?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for benefits?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe benefits in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which answer fits benefits?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Does this describe benefits?",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Career direction",
+          "questions": [
+            {
+              "type": "file",
+              "label": "Which file should we attach for career direction?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe career direction in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "How regularly does career direction apply?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How often does career direction come up?",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the career direction details are correct."
+            }
+          ]
+        },
+        {
+          "title": "Work notes",
+          "questions": [
+            {
+              "type": "textarea",
+              "label": "Describe work notes in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which priority should work notes have?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How important is work notes?",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the work notes details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for work notes?",
+              "placeholder": "Type your answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "summary": "Study, qualifications, and learning.",
+      "steps": [
+        {
+          "title": "Highest level",
+          "questions": [
+            {
+              "type": "color",
+              "label": "Which color represents highest level?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to highest level?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to highest level?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to highest level?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to highest level?"
+            }
+          ]
+        },
+        {
+          "title": "Current study",
+          "questions": [
+            {
+              "type": "date",
+              "label": "What date is relevant to current study?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to current study?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to current study?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to current study?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to current study?"
+            }
+          ]
+        },
+        {
+          "title": "Institution",
+          "questions": [
+            {
+              "type": "month",
+              "label": "Which month applies to institution?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to institution?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to institution?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to institution?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for institution?"
+            }
+          ]
+        },
+        {
+          "title": "Field of study",
+          "questions": [
+            {
+              "type": "week",
+              "label": "Which week applies to field of study?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to field of study?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to field of study?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for field of study?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe field of study in your own words.",
+              "placeholder": "Write a short answer"
+            }
+          ]
+        },
+        {
+          "title": "Graduation",
+          "questions": [
+            {
+              "type": "time",
+              "label": "What time applies to graduation?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to graduation?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for graduation?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe graduation in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which status fits graduation?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Certifications",
+          "questions": [
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to certifications?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for certifications?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe certifications in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which channel should we use for certifications?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How should we follow up about certifications?",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Learning style",
+          "questions": [
+            {
+              "type": "file",
+              "label": "Which file should we attach for learning style?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe learning style in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which answer fits learning style?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Does this describe learning style?",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the learning style details are correct."
+            }
+          ]
+        },
+        {
+          "title": "Instruction language",
+          "questions": [
+            {
+              "type": "textarea",
+              "label": "Describe instruction language in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "How regularly does instruction language apply?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How often does instruction language come up?",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the instruction language details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for instruction language?",
+              "placeholder": "Type your answer"
+            }
+          ]
+        },
+        {
+          "title": "Funding",
+          "questions": [
+            {
+              "type": "select",
+              "label": "Which priority should funding have?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How important is funding?",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the funding details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for funding?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for funding?",
+              "placeholder": "Enter a password"
+            }
+          ]
+        },
+        {
+          "title": "Education notes",
+          "questions": [
+            {
+              "type": "radio",
+              "label": "Where does education notes stand?",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the education notes details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for education notes?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for education notes?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about education notes?",
+              "placeholder": "Search terms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Health",
+      "summary": "General wellbeing and care.",
+      "steps": [
+        {
+          "title": "General health",
+          "questions": [
+            {
+              "type": "month",
+              "label": "Which month applies to general health?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to general health?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to general health?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to general health?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for general health?"
+            }
+          ]
+        },
+        {
+          "title": "Conditions",
+          "questions": [
+            {
+              "type": "week",
+              "label": "Which week applies to conditions?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to conditions?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to conditions?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for conditions?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe conditions in your own words.",
+              "placeholder": "Write a short answer"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "questions": [
+            {
+              "type": "time",
+              "label": "What time applies to medications?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to medications?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for medications?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe medications in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which priority should medications have?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Allergies",
+          "questions": [
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to allergies?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for allergies?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe allergies in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which status fits allergies?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Where does allergies stand?",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Primary care",
+          "questions": [
+            {
+              "type": "file",
+              "label": "Which file should we attach for primary care?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe primary care in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which channel should we use for primary care?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How should we follow up about primary care?",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the primary care details are correct."
+            }
+          ]
+        },
+        {
+          "title": "Movement",
+          "questions": [
+            {
+              "type": "textarea",
+              "label": "Describe movement in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which answer fits movement?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Does this describe movement?",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the movement details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for movement?",
+              "placeholder": "Type your answer"
+            }
+          ]
+        },
+        {
+          "title": "Sleep",
+          "questions": [
+            {
+              "type": "select",
+              "label": "How regularly does sleep apply?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How often does sleep come up?",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the sleep details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for sleep?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for sleep?",
+              "placeholder": "Enter a password"
+            }
+          ]
+        },
+        {
+          "title": "Food",
+          "questions": [
+            {
+              "type": "radio",
+              "label": "How important is food?",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the food details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for food?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for food?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about food?",
+              "placeholder": "Search terms"
+            }
+          ]
+        },
+        {
+          "title": "Wellbeing",
+          "questions": [
+            {
+              "type": "checkbox",
+              "label": "I confirm the wellbeing details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for wellbeing?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for wellbeing?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about wellbeing?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to wellbeing?",
+              "placeholder": "+1 555 0100"
+            }
+          ]
+        },
+        {
+          "title": "Health notes",
+          "questions": [
+            {
+              "type": "text",
+              "label": "What should we record for health notes?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for health notes?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about health notes?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to health notes?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to health notes?",
+              "placeholder": "https://example.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preferences",
+      "summary": "How you want this process to work.",
+      "steps": [
+        {
+          "title": "Communication style",
+          "questions": [
+            {
+              "type": "time",
+              "label": "What time applies to communication style?"
+            },
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to communication style?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for communication style?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe communication style in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "How regularly does communication style apply?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Language",
+          "questions": [
+            {
+              "type": "datetime-local",
+              "label": "What date and time apply to language?"
+            },
+            {
+              "type": "file",
+              "label": "Which file should we attach for language?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe language in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which priority should language have?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How important is language?",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Time zone",
+          "questions": [
+            {
+              "type": "file",
+              "label": "Which file should we attach for time zone?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe time zone in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which status fits time zone?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Where does time zone stand?",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the time zone details are correct."
+            }
+          ]
+        },
+        {
+          "title": "Meeting format",
+          "questions": [
+            {
+              "type": "textarea",
+              "label": "Describe meeting format in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which channel should we use for meeting format?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How should we follow up about meeting format?",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the meeting format details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for meeting format?",
+              "placeholder": "Type your answer"
+            }
+          ]
+        },
+        {
+          "title": "Topics",
+          "questions": [
+            {
+              "type": "select",
+              "label": "Which answer fits topics?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Does this describe topics?",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the topics details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for topics?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for topics?",
+              "placeholder": "Enter a password"
+            }
+          ]
+        },
+        {
+          "title": "Privacy",
+          "questions": [
+            {
+              "type": "radio",
+              "label": "How often does privacy come up?",
+              "options": [
+                {
+                  "value": "never",
+                  "label": "Never"
+                },
+                {
+                  "value": "rarely",
+                  "label": "Rarely"
+                },
+                {
+                  "value": "sometimes",
+                  "label": "Sometimes"
+                },
+                {
+                  "value": "often",
+                  "label": "Often"
+                },
+                {
+                  "value": "always",
+                  "label": "Always"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the privacy details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for privacy?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for privacy?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about privacy?",
+              "placeholder": "Search terms"
+            }
+          ]
+        },
+        {
+          "title": "Update cadence",
+          "questions": [
+            {
+              "type": "checkbox",
+              "label": "I confirm the update cadence details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for update cadence?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for update cadence?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about update cadence?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to update cadence?",
+              "placeholder": "+1 555 0100"
+            }
+          ]
+        },
+        {
+          "title": "Access preferences",
+          "questions": [
+            {
+              "type": "text",
+              "label": "What should we record for access preferences?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for access preferences?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about access preferences?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to access preferences?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to access preferences?",
+              "placeholder": "https://example.com"
+            }
+          ]
+        },
+        {
+          "title": "Support style",
+          "questions": [
+            {
+              "type": "password",
+              "label": "What password should we store for support style?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about support style?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to support style?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to support style?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to support style?",
+              "placeholder": "name@example.com"
+            }
+          ]
+        },
+        {
+          "title": "Preference notes",
+          "questions": [
+            {
+              "type": "search",
+              "label": "What should we search for about preference notes?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to preference notes?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to preference notes?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to preference notes?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for preference notes?",
+              "placeholder": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Documents",
+      "summary": "Records you can refer back to.",
+      "steps": [
+        {
+          "title": "Identification",
+          "questions": [
+            {
+              "type": "file",
+              "label": "Which file should we attach for identification?"
+            },
+            {
+              "type": "textarea",
+              "label": "Describe identification in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which priority should identification have?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How important is identification?",
+              "options": [
+                {
+                  "value": "low",
+                  "label": "Low"
+                },
+                {
+                  "value": "medium",
+                  "label": "Medium"
+                },
+                {
+                  "value": "high",
+                  "label": "High"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the identification details are correct."
+            }
+          ]
+        },
+        {
+          "title": "Proof of address",
+          "questions": [
+            {
+              "type": "textarea",
+              "label": "Describe proof of address in your own words.",
+              "placeholder": "Write a short answer"
+            },
+            {
+              "type": "select",
+              "label": "Which status fits proof of address?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Where does proof of address stand?",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the proof of address details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for proof of address?",
+              "placeholder": "Type your answer"
+            }
+          ]
+        },
+        {
+          "title": "Employment records",
+          "questions": [
+            {
+              "type": "select",
+              "label": "Which channel should we use for employment records?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "How should we follow up about employment records?",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the employment records details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for employment records?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for employment records?",
+              "placeholder": "Enter a password"
+            }
+          ]
+        },
+        {
+          "title": "Education records",
+          "questions": [
+            {
+              "type": "radio",
+              "label": "Does this describe education records?",
+              "options": [
+                {
+                  "value": "yes",
+                  "label": "Yes"
+                },
+                {
+                  "value": "no",
+                  "label": "No"
+                },
+                {
+                  "value": "unsure",
+                  "label": "Not sure"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the education records details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for education records?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for education records?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about education records?",
+              "placeholder": "Search terms"
+            }
+          ]
+        },
+        {
+          "title": "Care records",
+          "questions": [
+            {
+              "type": "checkbox",
+              "label": "I confirm the care records details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for care records?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for care records?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about care records?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to care records?",
+              "placeholder": "+1 555 0100"
+            }
+          ]
+        },
+        {
+          "title": "Financial records",
+          "questions": [
+            {
+              "type": "text",
+              "label": "What should we record for financial records?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for financial records?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about financial records?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to financial records?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to financial records?",
+              "placeholder": "https://example.com"
+            }
+          ]
+        },
+        {
+          "title": "Consent forms",
+          "questions": [
+            {
+              "type": "password",
+              "label": "What password should we store for consent forms?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about consent forms?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to consent forms?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to consent forms?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to consent forms?",
+              "placeholder": "name@example.com"
+            }
+          ]
+        },
+        {
+          "title": "References",
+          "questions": [
+            {
+              "type": "search",
+              "label": "What should we search for about references?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to references?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to references?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to references?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for references?",
+              "placeholder": "0"
+            }
+          ]
+        },
+        {
+          "title": "Checklist",
+          "questions": [
+            {
+              "type": "tel",
+              "label": "What phone number applies to checklist?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to checklist?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to checklist?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for checklist?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does checklist fall on a scale of 0 to 100?"
+            }
+          ]
+        },
+        {
+          "title": "Document notes",
+          "questions": [
+            {
+              "type": "url",
+              "label": "What web address applies to document notes?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to document notes?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for document notes?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does document notes fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents document notes?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Goals",
+      "summary": "What you want to happen next.",
+      "steps": [
+        {
+          "title": "Short-term goal",
+          "questions": [
+            {
+              "type": "select",
+              "label": "Which status fits short-term goal?",
+              "placeholder": "Select an option",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Where does short-term goal stand?",
+              "options": [
+                {
+                  "value": "not-started",
+                  "label": "Not started"
+                },
+                {
+                  "value": "in-progress",
+                  "label": "In progress"
+                },
+                {
+                  "value": "complete",
+                  "label": "Complete"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the short-term goal details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for short-term goal?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for short-term goal?",
+              "placeholder": "Enter a password"
+            }
+          ]
+        },
+        {
+          "title": "Long-term goal",
+          "questions": [
+            {
+              "type": "radio",
+              "label": "How should we follow up about long-term goal?",
+              "options": [
+                {
+                  "value": "email",
+                  "label": "Email"
+                },
+                {
+                  "value": "phone",
+                  "label": "Phone"
+                },
+                {
+                  "value": "sms",
+                  "label": "Text message"
+                },
+                {
+                  "value": "mail",
+                  "label": "Post"
+                }
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "I confirm the long-term goal details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for long-term goal?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for long-term goal?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about long-term goal?",
+              "placeholder": "Search terms"
+            }
+          ]
+        },
+        {
+          "title": "Success measures",
+          "questions": [
+            {
+              "type": "checkbox",
+              "label": "I confirm the success measures details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for success measures?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for success measures?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about success measures?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to success measures?",
+              "placeholder": "+1 555 0100"
+            }
+          ]
+        },
+        {
+          "title": "Obstacles",
+          "questions": [
+            {
+              "type": "text",
+              "label": "What should we record for obstacles?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for obstacles?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about obstacles?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to obstacles?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to obstacles?",
+              "placeholder": "https://example.com"
+            }
+          ]
+        },
+        {
+          "title": "Support needed",
+          "questions": [
+            {
+              "type": "password",
+              "label": "What password should we store for support needed?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about support needed?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to support needed?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to support needed?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to support needed?",
+              "placeholder": "name@example.com"
+            }
+          ]
+        },
+        {
+          "title": "Timeline",
+          "questions": [
+            {
+              "type": "search",
+              "label": "What should we search for about timeline?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to timeline?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to timeline?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to timeline?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for timeline?",
+              "placeholder": "0"
+            }
+          ]
+        },
+        {
+          "title": "Priority",
+          "questions": [
+            {
+              "type": "tel",
+              "label": "What phone number applies to priority?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to priority?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to priority?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for priority?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does priority fall on a scale of 0 to 100?"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "questions": [
+            {
+              "type": "url",
+              "label": "What web address applies to resources?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to resources?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for resources?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does resources fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents resources?"
+            }
+          ]
+        },
+        {
+          "title": "Accountability",
+          "questions": [
+            {
+              "type": "email",
+              "label": "Which email applies to accountability?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for accountability?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does accountability fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents accountability?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to accountability?"
+            }
+          ]
+        },
+        {
+          "title": "Goal notes",
+          "questions": [
+            {
+              "type": "number",
+              "label": "What number should we keep for goal notes?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does goal notes fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents goal notes?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to goal notes?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to goal notes?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Review",
+      "summary": "Confirm the form before you submit.",
+      "steps": [
+        {
+          "title": "Accuracy",
+          "questions": [
+            {
+              "type": "checkbox",
+              "label": "I confirm the accuracy details are correct."
+            },
+            {
+              "type": "text",
+              "label": "What should we record for accuracy?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for accuracy?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about accuracy?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to accuracy?",
+              "placeholder": "+1 555 0100"
+            }
+          ]
+        },
+        {
+          "title": "Missing details",
+          "questions": [
+            {
+              "type": "text",
+              "label": "What should we record for missing details?",
+              "placeholder": "Type your answer"
+            },
+            {
+              "type": "password",
+              "label": "What password should we store for missing details?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about missing details?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to missing details?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to missing details?",
+              "placeholder": "https://example.com"
+            }
+          ]
+        },
+        {
+          "title": "Corrections",
+          "questions": [
+            {
+              "type": "password",
+              "label": "What password should we store for corrections?",
+              "placeholder": "Enter a password"
+            },
+            {
+              "type": "search",
+              "label": "What should we search for about corrections?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to corrections?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to corrections?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to corrections?",
+              "placeholder": "name@example.com"
+            }
+          ]
+        },
+        {
+          "title": "Sharing",
+          "questions": [
+            {
+              "type": "search",
+              "label": "What should we search for about sharing?",
+              "placeholder": "Search terms"
+            },
+            {
+              "type": "tel",
+              "label": "What phone number applies to sharing?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to sharing?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to sharing?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for sharing?",
+              "placeholder": "0"
+            }
+          ]
+        },
+        {
+          "title": "Data retention",
+          "questions": [
+            {
+              "type": "tel",
+              "label": "What phone number applies to data retention?",
+              "placeholder": "+1 555 0100"
+            },
+            {
+              "type": "url",
+              "label": "What web address applies to data retention?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to data retention?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for data retention?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does data retention fall on a scale of 0 to 100?"
+            }
+          ]
+        },
+        {
+          "title": "Follow-up",
+          "questions": [
+            {
+              "type": "url",
+              "label": "What web address applies to follow-up?",
+              "placeholder": "https://example.com"
+            },
+            {
+              "type": "email",
+              "label": "Which email applies to follow-up?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for follow-up?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does follow-up fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents follow-up?"
+            }
+          ]
+        },
+        {
+          "title": "Declaration",
+          "questions": [
+            {
+              "type": "email",
+              "label": "Which email applies to declaration?",
+              "placeholder": "name@example.com"
+            },
+            {
+              "type": "number",
+              "label": "What number should we keep for declaration?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does declaration fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents declaration?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to declaration?"
+            }
+          ]
+        },
+        {
+          "title": "Signature",
+          "questions": [
+            {
+              "type": "number",
+              "label": "What number should we keep for signature?",
+              "placeholder": "0"
+            },
+            {
+              "type": "range",
+              "label": "Where does signature fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents signature?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to signature?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to signature?"
+            }
+          ]
+        },
+        {
+          "title": "Final comments",
+          "questions": [
+            {
+              "type": "range",
+              "label": "Where does final comments fall on a scale of 0 to 100?"
+            },
+            {
+              "type": "color",
+              "label": "Which color represents final comments?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to final comments?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to final comments?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to final comments?"
+            }
+          ]
+        },
+        {
+          "title": "Submission",
+          "questions": [
+            {
+              "type": "color",
+              "label": "Which color represents submission?"
+            },
+            {
+              "type": "date",
+              "label": "What date is relevant to submission?"
+            },
+            {
+              "type": "month",
+              "label": "Which month applies to submission?"
+            },
+            {
+              "type": "week",
+              "label": "Which week applies to submission?"
+            },
+            {
+              "type": "time",
+              "label": "What time applies to submission?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
