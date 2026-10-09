@@ -2,9 +2,22 @@
   --danger: #dc2626;
   width: min(1040px, 100%);
   margin: 0 auto;
-  padding: 40px 24px 64px;
+  max-height: 100%;
+  padding: 32px 24px;
   text-align: left;
   box-sizing: border-box;
+  background: #fff;
+}
+
+.form-container {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 16px 24px;
+  box-sizing: border-box;
+  max-height: 78svh;
+  overflow: auto;
 }
 
 .page-header {
@@ -12,22 +25,35 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
+  background: #fff;
 }
 
 .page-header-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   min-width: 0;
 }
 
 .page-header h1 {
   font-size: 40px;
+  line-height: 1.15;
   letter-spacing: -1px;
-  margin: 0 0 8px;
+  margin: 0;
   text-align: left;
+  color: var(--text-h);
 }
 
-.intro {
+.intro,
+.intro-details {
   max-width: 40rem;
+  margin: 0;
+  color: var(--text);
+}
+
+.intro-details {
+  margin-bottom: 12px;
 }
 
 .form {
@@ -47,9 +73,23 @@
 }
 
 .menu-layer {
-  position: relative;
-  z-index: 5;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 6;
   width: max-content;
+}
+
+.menu-layer.is-open {
+  inset: 0;
+  width: auto;
+  height: auto;
+}
+
+.menu-layer.is-open .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }
 
 .menu-toggle {
@@ -101,26 +141,26 @@
 }
 
 .side-menu {
-  position: fixed;
+  position: absolute;
   inset: 0;
   z-index: 5;
-  width: auto;
-  max-width: none;
-  height: auto;
-  max-height: none;
   overflow: auto;
-  padding: 96px 24px 24px;
+  padding: 72px 0 24px;
   box-sizing: border-box;
-  background: var(--bg);
+  background: #fff;
+  border-radius: 16px;
 }
 
 .section-menu {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
   min-width: 0;
   min-height: 0;
-  overflow: auto;
 }
 
 .section-item {
@@ -246,13 +286,20 @@
   padding: 24px;
   box-shadow: var(--shadow);
   box-sizing: border-box;
+  background: #fff;
 }
 
 .wizard-main {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 12px;
   min-width: 0;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fff;
 }
 
 .progress-block {
@@ -312,9 +359,9 @@
   top: 0;
   z-index: 2;
   gap: 18px;
-  margin: -24px -24px 0;
-  padding: 24px 24px 28px;
-  background: var(--bg);
+  margin: 0 -24px;
+  padding: 0 24px 28px;
+  background: #fff;
   border-bottom: 1px solid var(--border);
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -352,7 +399,7 @@
 }
 
 .questions {
-  gap: 18px;
+  gap: 32px;
 }
 
 .questions > :first-child {
@@ -380,6 +427,13 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.question-details {
+  margin: -4px 0 8px;
+  padding-left: calc(1.5rem + 8px);
+  font-size: 14px;
+  color: var(--text);
 }
 
 .question-label {
@@ -573,17 +627,33 @@ input[type='file'].text-input {
 
 @media (max-width: 800px) {
   .page {
-    padding: 24px 16px 48px;
+    padding: 24px 16px 24px;
   }
 
-  .wizard-main,
+  .menu-layer {
+    top: 16px;
+    right: 16px;
+  }
+
+  .section-menu {
+    padding: 0 16px;
+  }
+
+  .form-container {
+    padding: 16px;
+  }
+
+  .wizard-main {
+    padding: 0;
+  }
+
   .receipt {
     padding: 16px;
   }
 
   .form-fixed {
-    margin: -16px -16px 0;
-    padding: 16px 16px 28px;
+    margin: 0 -16px;
+    padding: 0 16px 28px;
   }
 
   .actions .button {

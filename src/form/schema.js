@@ -1,6 +1,28 @@
 import { getIn, setIn } from 'formik'
 import formContent from './form.json' with { type: 'json' }
 
+const FIELD_TYPES = {
+  'text field': 'text',
+  password: 'password',
+  search: 'search',
+  phone: 'tel',
+  'web address': 'url',
+  email: 'email',
+  number: 'number',
+  range: 'range',
+  color: 'color',
+  date: 'date',
+  month: 'month',
+  week: 'week',
+  time: 'time',
+  'date and time': 'datetime-local',
+  file: 'file',
+  checkbox: 'checkbox',
+  'radio button': 'radio',
+  dropdown: 'select',
+  'long text': 'textarea',
+}
+
 const INPUT_TYPES = [
   'text',
   'password',
@@ -27,6 +49,17 @@ const INPUT_TYPES = [
   'textarea',
   'select',
 ]
+
+function resolveField(question) {
+  const field = question.field ?? question.type
+
+  if (FIELD_TYPES[field]) return { field, type: FIELD_TYPES[field] }
+  if (INPUT_TYPES.includes(field)) return { field, type: field }
+
+  throw new Error(
+    `Unknown form field "${field}" for "${question.label ?? 'a question'}" in form.json.`,
+  )
+}
 
 function slugify(value) {
   return value
@@ -58,16 +91,26 @@ function buildForm(content) {
 
     const steps = section.steps.map((step, stepIndex) => {
       const stepId = uniqueSlug(step.title, usedStepIds)
-      const questions = step.questions.map((question, questionIndex) => ({
-        id: `${sectionId}-${stepId}-q${questionIndex + 1}`,
-        name: `${sectionId}.${stepId}.q${questionIndex + 1}`,
-        type: question.type,
-        label: question.label,
-        placeholder: question.placeholder ?? '',
-        options: question.options,
-        sectionIndex,
-        stepIndex,
-      }))
+      const questions = step.questions.map((question, questionIndex) => {
+        const field = resolveField(question)
+
+        const name = `${sectionId}.${stepId}.q${questionIndex + 1}`
+
+        return {
+          id: `${sectionId}-${stepId}-q${questionIndex + 1}`,
+          name,
+          field: field.field,
+          type: field.type,
+          label: question.label,
+          placeholder: question.placeholder ?? '',
+          additionalDetails: question.additionalDetails === true,
+          details: question.details ?? '',
+          optionCount: question.optionCount,
+          options: question.options,
+          sectionIndex,
+          stepIndex,
+        }
+      })
 
       return { id: stepId, title: step.title, questions }
     })
@@ -122,11 +165,21 @@ function assertForm(sections) {
         names.add(question.name)
 
         if (!INPUT_TYPES.includes(question.type)) {
-          throw new Error(`Unknown input type "${question.type}" in form.json.`)
+          throw new Error(`Unknown form field "${question.field}" in form.json.`)
         }
 
-        if ((question.type === 'select' || question.type === 'radio') && !question.options?.length) {
-          throw new Error(`${question.label} needs an options list in form.json.`)
+        if (question.type === 'select' || question.type === 'radio') {
+          const optionCount = question.options?.length ?? 0
+
+          if (!optionCount) {
+            throw new Error(`${question.label} needs an options list in form.json.`)
+          }
+
+          if (question.optionCount !== optionCount) {
+            throw new Error(
+              `${question.label} says it has ${question.optionCount} options, but lists ${optionCount}.`,
+            )
+          }
         }
       }
     }
@@ -136,6 +189,7 @@ function assertForm(sections) {
 const built = buildForm(formContent)
 assertForm(built.sections)
 
+export const formDetails = formContent.details ?? ''
 export const formSections = built.sections
 export const initialValues = built.initialValues
 export const SECTION_COUNT = formSections.length

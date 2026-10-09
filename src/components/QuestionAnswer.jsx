@@ -70,18 +70,20 @@ export function QuestionAnswer({ question, index }) {
     return <Answer question={question} />
   }
 
+  const details = question.additionalDetails ? (
+    <p className="question-details">
+      {question.details || 'Add any extra details for this question.'}
+    </p>
+  ) : null
+
   return (
     <div className="question">
-      {question.type === 'checkbox' ? (
-        <label className="choice">
-          <Answer question={question} invalid={invalid} errorId={errorId} />
-          <span className="question-label">{prompt}</span>
-        </label>
-      ) : question.type === 'radio' ? (
+      {question.type === 'radio' ? (
         <>
           <p id={labelId} className="question-label">
             {prompt}
           </p>
+          {details}
           <Answer question={question} invalid={invalid} errorId={errorId} labelId={labelId} />
         </>
       ) : (
@@ -89,6 +91,7 @@ export function QuestionAnswer({ question, index }) {
           <label className="question-label" htmlFor={question.id}>
             {prompt}
           </label>
+          {details}
           <Answer question={question} invalid={invalid} errorId={errorId} />
         </>
       )}
